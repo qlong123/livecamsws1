@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    background-image: url("https://pbs.twimg.com/media/DA6RU2dXYAAiXF5.jpg:large");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .body {
+    padding: 2rem;
+  }
+  
+  .camera-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .camera {
+    text-align: center;
+  }
+  
+  .camera img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .transparency {
+    margin-top: 2rem;
+    font-style: italic;
+  }
+  
+  .transparency a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .benefits {
+    margin-top: 2rem;
+  }
+  
+  .footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .footer a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add media queries for responsive design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+    .hero p {
+      font-size: 1rem;
+    }
+    .camera-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  .toprivacypolicy {
+    color: black;
+  }
